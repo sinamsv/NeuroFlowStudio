@@ -7,7 +7,12 @@ If you've ever wanted to visually experiment with artificial intelligence and se
 ### 🤔 What is this project all about?
 I built NeuroFlow Studio primarily as an educational tool. It's a simulation environment that lets you test out various AI models right on your own computer. You can tweak architectures, play around with complex structures, and visually discover which setups work best for different tasks. 
 
-Instead of running in a browser, the UI is built entirely using **NumPy** and **Pygame** 🎮. This means no web-based latency, smooth real-time visual feedback, and top-notch performance. 
+To keep things running buttery smooth, the UI is built entirely with **Pygame** 🎮, while **NumPy** handles the heavy mathematical calculations behind the scenes. This means no web-based latency, smooth real-time visual feedback, and top-notch performance. 
+
+### ✨ Key Features
+Here are some of the cool things you can do in the studio:
+*   🎨 **Manual Dataset Creation:** You can actually draw and create your own point-based datasets manually right on the screen! It's a super fun way to see how models react to custom data shapes.
+*   ⚙️ **Total Layer Flexibility:** You have full control over the network's architecture. You can easily adjust the number of neurons in each individual layer and swap out activation functions to see what works best.
 
 ### 🚀 How to get it running
 Setup is super easy! Just open up your terminal and follow these quick steps:
