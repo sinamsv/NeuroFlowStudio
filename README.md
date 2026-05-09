@@ -1,5 +1,9 @@
 # 🧠✨ NeuroFlow Studio
 
+> ⚠️ MVP Status
+This is an MVP focused on real-time performance and quick iteration. The code is intentionally single-file and optimized for low latency between PyTorch and Pygame. Expect rapid changes and occasional rough edges; refactors and multi-file structure are planned for future versions.
+
+
 Welcome to **NeuroFlow Studio**! 👋 
 
 If you've ever wanted to visually experiment with artificial intelligence and see how different neural network architectures perform, you're in the right place. Think of it as a local, high-performance version of TensorFlow Playground, but completely powered by **PyTorch**! 🔥
@@ -17,16 +21,16 @@ Here are some of the cool things you can do in the studio:
 ### 🚀 How to get it running
 Setup is super easy! Just open up your terminal and follow these quick steps:
 
-**1. Install the dependencies:**
-You'll need PyTorch, NumPy, and Pygame. Just run:
-```bash
-pip install torch numpy pygame
-```
 
-**2. Clone the repository:**
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/sinamsv/NeuroFlowStudio.git
 cd NeuroFlowStudio
+```
+
+**2. Install the dependencies:**
+```bash
+pip install -r requirements.txt
 ```
 
 **3. Run the studio:**
